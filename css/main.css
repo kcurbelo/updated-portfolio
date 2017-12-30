@@ -1,101 +1,43 @@
 /*Fonts*/
-/*font-family: 'Slabo 27px', serif;
-font-family: 'Montserrat', sans-serif;
-font-family: 'Montserrat Subrayada', sans-serif;*/
+/*font-family: 'Anton', sans-serif;
+font-family: 'Fjalla One', sans-serif;*/
 
-p,li {
-  font-size: 1.5em;
-}
-a {
-  cursor: pointer;
-}
-h2 {
-  font-size: 2em;
+/*==== Tag Style =====*/
+ul {
+padding: 0;
 }
 
-.b-pad {
-  padding: 0 20px; 
-  box-sizing: border-box;
-}
-
-
-.nav-ul {
-  padding: 0;
-  margin:0;
-  text-align: center;
-}
-
-/*======== For Fancy Transformation ====*/
-.f-mar {
+/*==== General Style =====*/
+.name {
+  font-size: 5rem;
+  font-family: 'Anton', sans-serif;
+  font-family: 'Fjalla One', sans-serif;
   margin: 0;
 }
-.f-ti {
-  padding-bottom: 10px 0;
-  font-family: 'Montserrat Subrayada', sans-serif;
-  margin-top: -28px;
-  padding-bottom: 20px;
+.nav-li {
+  font-size: 3rem;
+  list-style-type: none;
+  font-family: 'Fjalla One', sans-serif;
+  opacity: .2;
 }
-.box-1 {
-  background-color: #EEE6AB;
-  padding-bottom: 60px;
-  /*Prevent browser collapse*/
-  padding-top: 1px;
-  margin-top: -1px; 
-}
-.box-1 .f-ti {
-  color: #EEE6AB;
-}
-.box-2 {
-  background-color: #C5BC8E;
-  padding-bottom: 60px;
-  /*Prevent browser collapse*/
-  padding-top: 1px;
-  margin-top: -1px; 
-}
-.box-2 .f-ti {
-  color: #C5BC8E;
-}
-.box-3 {
-  background-color: #696758;
-  padding-bottom: 60px;
-  /*Prevent browser collapse*/
-  padding-top: 1px;
-  margin-top: -1px; 
-}
-.box-3 .f-ti {
-  color: #696758;
-}
-.box-3 p.f-mar {
-  color: #fff;
+.active {
+  opacity: 1;
 }
 
-p.f-mar, ul.f-mar li {
-  color: #383838;
-  font-family: 'Open Sans', sans-serif;
-  font-size: 16px;
-}
 
 /*======== For Desktop ===========*/
 @media only screen and (min-width: 850px) {
-  .box-1 {
-    display: inline-block;
-    width: 33%;
-    vertical-align: top;
-    height: 400px;
-  }
-  .box-2 {
-    display: inline-block;
-    width: 33%;
-    vertical-align: top;
-    height: 400px;
-  }
-  .box-3 {
-    display: inline-block;
-    width: 33%;
-    vertical-align: top;
-    height: 400px;
-  }    
+   
 }
+
+ .jo {
+    background: #def3ca;
+    margin: 3px;
+    width: 80px;
+    display: none;
+    float: left;
+    text-align: center;
+  }
 
 
 
