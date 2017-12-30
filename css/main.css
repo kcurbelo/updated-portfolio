@@ -1,26 +1,38 @@
 /*Fonts*/
-/*font-family: 'Montserrat', sans-serif;*/
-/*font-family: 'Muli', sans-serif;*/
-  html, body {
-    height: 100%;
-  }
-  .nav-li {
-    list-style-type: none; 
-    display: inline-block;
-    text-transform: uppercase;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 16px;
-    margin: 0;
-    color: lightblue;
-    margin-left: 10px;
-  }
-  a {
-    cursor: pointer;
-  }
-  .nav-ul {
-    padding: 0;
-    margin:0;
-    text-align: center;
-    background-color: #fff;
-    margin-top: 20px;
-  }
+/*font-family: 'Slabo 27px', serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Montserrat Subrayada', sans-serif;*/
+
+p,li {
+  font-size: 1.5em;
+}
+a {
+  cursor: pointer;
+}
+h2 {
+  font-size: 2em;
+}
+
+.b-pad {
+  padding: 0 20px; 
+  box-sizing: border-box;
+}
+
+
+.nav-ul {
+  padding: 0;
+  margin:0;
+  text-align: center;
+}
+
+
+/*======== For Mobile ===========*/
+/*.box-1 {
+  background-color: #EEE6AB;
+}
+.box-2 {
+  background-color: #C5BC8E;
+}
+.box-3 {
+  background-color: #696758;
+}*/
