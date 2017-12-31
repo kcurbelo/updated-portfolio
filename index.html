@@ -2,7 +2,7 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<title>Kevin Curbelo</title>
+	<title>Kevin</title>
 	<script
 	  src="https://code.jquery.com/jquery-3.2.1.min.js"
 	  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
@@ -17,38 +17,37 @@
 		<h1 class="name">Kevin.</h1>
 		<nav>
 			<ul class="nav-ul">
-				<li id="showr" class="nav-li link-1" ><a>- Work</a></li>
-				<li class="nav-li link-2 active" ><a>- About</a></li>
-				<li class="nav-li" ><a>- Contact</a></li>
+				<li class="nav-li work-link disable-click active " ><a>- Work</a></li>
+				<li class="nav-li about-link disable-click" ><a>- About</a></li>
+				<li class="nav-li contact-link disable-click" ><a>- Contact</a></li>
 			</ul>
 		</nav>
 
 		<!-- Link 1 content -->
-		<li class="jo">how</li>
-		<li class="jo">are</li>
-		<li class="jo">you?</li>
+		<li class="work-content"  style="display: none;">Work Sample 1</li>
+		<li class="work-content"  style="display: none;">Work Sample 2</li>
+		<li class="work-content"  style="display: none;">Work Sample 3</li>
 
 
 		<!-- Link 2 content -->
-		<div class="link-2-content" style="display: none;">
+		<div class="about-content" style="display: none;">
 			<p>Hi, I'm kevin. THis is some information about me that will show you that I can do tons of stuff. It will also show yo my location sa what not.</p>
 		</div>	
 
-		<button id="hidr">Hide</button>
+		<!-- Link 3 content -->
+		<div class="contact-content" style="display: none;">
+			<p>This is the 3 container</p>
+		</div>
+
+
+
 	</section>
-<p style="display: none">Hello  2</p>
  
 <script>
-$( ".link-2" ).click(function() {
-  $( ".link-2-content" ).show( "slow" );
 
-$( ".jo" ).first().hide( "fast", function hideNext() {
-      $( this ).next( ".jo" ).hide( "fast", hideNext );
-    });
-  
-});
 
 </script>
+
 
 
 

@@ -24,13 +24,22 @@ padding: 0;
   opacity: 1;
 }
 
+.selected {
+  color: red;
+}
+.disable-click{
+  pointer-events: none;
+}
+.enable-click {
+  pointer-events: all;
+}
 
 /*======== For Desktop ===========*/
 @media only screen and (min-width: 850px) {
    
 }
 
- .jo {
+ .work-sample {
     background: #def3ca;
     margin: 3px;
     width: 80px;
