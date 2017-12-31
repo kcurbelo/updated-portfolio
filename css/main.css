@@ -6,33 +6,40 @@ font-family: 'Fjalla One', sans-serif;*/
 ul {
 padding: 0;
 }
-
+a {
+  cursor: pointer;
+}
 /*==== General Style =====*/
 .name {
   font-size: 5rem;
   font-family: 'Anton', sans-serif;
   font-family: 'Fjalla One', sans-serif;
   margin: 0;
+  text-align: center;
 }
-.nav-li {
-  font-size: 3rem;
-  list-style-type: none;
-  font-family: 'Fjalla One', sans-serif;
-  opacity: .2;
-}
-.active {
-  opacity: 1;
+.inactive{
+  opacity: .3;
 }
 
-.selected {
-  color: red;
+.nav-li {
+  text-align: center;
+  font-size: 2.5rem;
+  list-style-type: none;
+  font-family: 'Fjalla One', sans-serif;
 }
-.disable-click{
-  pointer-events: none;
+.nav-li a {
+  opacity: .2;
+  transition: all 0.5s ease;
 }
-.enable-click {
-  pointer-events: all;
+.nav-li a:hover {
+  opacity: .3;
+  transition: all 0.5s ease;
 }
+.active a {
+  opacity: 1 !important;
+}
+
+
 
 /*======== For Desktop ===========*/
 @media only screen and (min-width: 850px) {
