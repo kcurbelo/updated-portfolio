@@ -6,5 +6,8 @@
   });
    
   $( "#hidr" ).click(function() {
-    $( ".jo" ).hide( 1000 );
+    $( ".jo" ).first().hide( "fast", function hideNext() {
+      $( this ).next( ".jo" ).hide( "fast", hideNext );
+    });
   });
+
