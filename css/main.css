@@ -1,13 +1,29 @@
 /*Fonts*/
-/*font-family: 'Anton', sans-serif;
-font-family: 'Fjalla One', sans-serif;*/
+/*font-family: 'Fjalla One', sans-serif;
+font-family: 'Roboto', sans-serif;*/
 
 /*==== Tag Style =====*/
+body {
+  width: 100wh;
+  height: 90vh;
+  color: #fff;
+  background: linear-gradient(45deg, #108dc7, #ef8e38);
+  /*background: linear-gradient(45deg, #1a2a6c, #b21f1f, #fdbb2d);*/
+  background-size: 400% 400%;
+  -webkit-animation: Gradient 20s ease infinite;
+  -moz-animation: Gradient 20s ease infinite;
+  animation: Gradient 20s ease infinite;
+}
 ul {
 padding: 0;
 }
 a {
   cursor: pointer;
+}
+p {
+  font-family: 'Roboto', sans-serif;
+      -webkit-font-smoothing: antialiased;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.004);
 }
 /*==== General Style =====*/
 .name {
@@ -16,16 +32,26 @@ a {
   font-family: 'Fjalla One', sans-serif;
   margin: 0;
   text-align: center;
+      -webkit-font-smoothing: antialiased;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.004);
 }
 .inactive{
   opacity: .3;
 }
 
+.nav-ul{
+  text-align: center;
+}
 .nav-li {
   text-align: center;
-  font-size: 2.5rem;
+  font-size: 2rem;
   list-style-type: none;
   font-family: 'Fjalla One', sans-serif;
+  display:inline-block;
+  margin-left: 10px;
+}
+.nav-li:first-child {
+  margin-left: 0;
 }
 .nav-li a {
   opacity: .2;
@@ -39,21 +65,59 @@ a {
   opacity: 1 !important;
 }
 
-
+.about-content {
+  text-align: center;
+}
+.contact-content {
+  text-align: center;
+}
 
 /*======== For Desktop ===========*/
 @media only screen and (min-width: 850px) {
-   
+  .about-content {
+    text-align: center;
+    margin: 0 auto;
+    width: 500px;
+
+  }   
 }
 
- .work-sample {
-    background: #def3ca;
-    margin: 3px;
-    width: 80px;
-    display: none;
-    float: left;
-    text-align: center;
+
+@-webkit-keyframes Gradient {
+  0% {
+    background-position: 0% 50%
   }
+  50% {
+    background-position: 100% 50%
+  }
+  100% {
+    background-position: 0% 50%
+  }
+}
+
+@-moz-keyframes Gradient {
+  0% {
+    background-position: 0% 50%
+  }
+  50% {
+    background-position: 100% 50%
+  }
+  100% {
+    background-position: 0% 50%
+  }
+}
+
+@keyframes Gradient {
+  0% {
+    background-position: 0% 50%
+  }
+  50% {
+    background-position: 100% 50%
+  }
+  100% {
+    background-position: 0% 50%
+  }
+}
 
 
 
