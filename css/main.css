@@ -5,7 +5,7 @@ font-family: 'Roboto', sans-serif;*/
 /*==== Tag Style =====*/
 body {
   width: 100wh;
-  height: 90vh;
+  height: 100vh;
   color: #fff;
   background: linear-gradient(45deg, #108dc7, #ef8e38);
   /*background: linear-gradient(45deg, #1a2a6c, #b21f1f, #fdbb2d);*/
@@ -17,18 +17,21 @@ body {
 ul {
 padding: 0;
 }
+h2 {
+  font-family: 'Fjalla One', sans-serif;
+}
 a {
   cursor: pointer;
 }
 p {
   font-family: 'Roboto', sans-serif;
-      -webkit-font-smoothing: antialiased;
-    text-shadow: 1px 1px 1px rgba(0,0,0,0.004);
+  -webkit-font-smoothing: antialiased;
+  text-shadow: 1px 1px 1px rgba(0,0,0,0.004);
+  margin: 0;
 }
 /*==== General Style =====*/
 .name {
   font-size: 5rem;
-  font-family: 'Anton', sans-serif;
   font-family: 'Fjalla One', sans-serif;
   margin: 0;
   text-align: center;
@@ -64,14 +67,54 @@ p {
 .active a {
   opacity: 1 !important;
 }
-
+.work-content-d-i {
+  display: inline-block;
+}
+.work-content {
+  margin: 0;
+  display: none;
+  vertical-align:top; 
+  text-align: center;
+}
+.work-inner-cont{
+  background-color:rgba(255, 255, 255, .1); 
+  padding: 40px 40px;
+  margin-bottom: 10px;
+}
+.work-inner-cont h2 {
+  margin-bottom: 10px;
+}
 .about-content {
   text-align: center;
+
 }
 .contact-content {
   text-align: center;
 }
+.built-with-img-cont {
+  text-align: center;
+}
+.built-with-img-cont img {
+  height: 50px;
+  width: auto;
+  display: inline-block;  
+}
 
+.work-banner-img {
+  width: 150px;
+  height: 150px;
+  border-radius: 100%;
+}
+.work-btn {
+  text-decoration: none; 
+  background-color: #383838; 
+  color: #fff; 
+  padding: 12px 25px; 
+  border-radius: 7px; 
+  display: inline-block; 
+  margin: 10px 0 20px 0;
+  font-family: 'Fjalla One', sans-serif;
+}
 /*======== For Desktop ===========*/
 @media only screen and (min-width: 850px) {
   .about-content {

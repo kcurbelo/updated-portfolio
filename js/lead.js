@@ -2,6 +2,7 @@
 // Runs on page load
 $(".work-content").each(function(index) {
     $(this).delay(300*index).fadeIn(300);
+    $(this).addClass("work-content-d-i");
 }); 
 
 // Work link function
