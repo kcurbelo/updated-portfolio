@@ -44,6 +44,8 @@ function hideWork() {
     // Hides work content
     $( ".work-content" ).hide( "fast" );
     // Hides contact content
+    // Hides everything in work cont 
+    hideWork();    
     $( ".contact-content" ).hide( "slow" );
     // Add active link class
     $( ".work-link" ).removeClass("active");
@@ -64,6 +66,8 @@ function hideWork() {
     // Hides work content
     $( ".work-content" ).hide( "fast" );
     // Add active link class
+    // Hides everything in work cont 
+    hideWork();    
     $( ".work-link" ).removeClass("active");
     // Remove active link class for other link
     $( ".about-link" ).removeClass("active");
