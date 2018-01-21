@@ -8,6 +8,9 @@ $(".work-content").each(function(index) {
 
 function hideWork() {
     $( "#dragon-cont" ).hide( "fast" );
+    $( "#bitcoin-cont" ).hide( "fast" );
+    $( "#event-cont" ).hide( "fast" );
+    $( "#sassy-cont" ).hide( "fast" );    
 }
 
 
@@ -71,8 +74,28 @@ function hideWork() {
 
   $( "#dragon-btn" ).click(function() {
     // Shows about content
-    $( "#dragon-cont" ).slideDown( "slow" );
+    $( "#dragon-cont" ).show( "medium" );
     // Hides about content
-    $( ".work-content" ).hide( 0 );          
+    $( ".work-content" ).hide( "medium" );          
   });
+  $( "#bitcoin-btn" ).click(function() {
+    // Shows about content
+    $( "#bitcoin-cont" ).show( "medium" );
+    // Hides about content
+    $( ".work-content" ).hide( "medium" );          
+  });  
+  $( "#event-btn" ).click(function() {
+    // Shows about content
+    $( "#event-cont" ).show( "medium" );
+    // Hides about content
+    $( ".work-content" ).hide( "medium" );          
+  });   
+  $( "#sassy-btn" ).click(function() {
+    // Shows about content
+    $( "#sassy-cont" ).show( "medium" );
+    // Hides about content
+    $( ".work-content" ).hide( "medium" );          
+  });    
+
+
 
