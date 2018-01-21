@@ -5,6 +5,12 @@ $(".work-content").each(function(index) {
     $(this).addClass("work-content-d-i");
 }); 
 
+
+function hideWork() {
+    $( "#dragon-cont" ).hide( "fast" );
+}
+
+
 // Work link function
 // function workFunction(){
   $( ".work-link" ).click(function() {
@@ -16,6 +22,8 @@ $(".work-content").each(function(index) {
     $( ".about-content" ).hide( "fast" );
     // Hides contact content
     $( ".contact-content" ).hide( "fast" );
+    // Hides everything in work cont 
+    hideWork();
     // Add active link class
     $( ".work-link" ).addClass("active");
     // Remove active link class for other link
@@ -61,5 +69,10 @@ $(".work-content").each(function(index) {
   });
 // }
 
-
+  $( "#dragon-btn" ).click(function() {
+    // Shows about content
+    $( "#dragon-cont" ).slideDown( "slow" );
+    // Hides about content
+    $( ".work-content" ).hide( 0 );          
+  });
 
