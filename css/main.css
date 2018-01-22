@@ -142,7 +142,7 @@ p {
   margin-bottom: 10px;
 }
 .project-phase-desc {
-    width: 40%;
+    width: 100%;
 }
 /* Float */
 .hvr-float {
@@ -192,8 +192,8 @@ p {
 }
 .project-imgs-cont {
   display: inline-block;
-  width: 30%;
-  margin-right: 3%;
+  width: 100%;
+  margin: 20px 0;
 }
 
 /*======== For Desktop ===========*/
@@ -211,6 +211,15 @@ p {
   .work-more {
     width: 65.25%;
     text-align: left;
+  }  
+  .project-phase-desc {
+      width: 40%;
+  }  
+  .project-imgs-cont {
+    display: inline-block;
+    width: 30%;
+    margin: 0 0;
+    margin-right: 3%;
   }  
 }
 
