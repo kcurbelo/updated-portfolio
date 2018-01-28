@@ -10,7 +10,8 @@ function hideWork() {
     $( "#dragon-cont" ).hide( "fast" );
     $( "#bitcoin-cont" ).hide( "fast" );
     $( "#event-cont" ).hide( "fast" );
-    $( "#sassy-cont" ).hide( "fast" );    
+    $( "#sassy-cont" ).hide( "fast" ); 
+    $( "#sketch-cont" ).hide( "fast" );    
 }
 
 
@@ -99,7 +100,13 @@ function hideWork() {
     $( "#sassy-cont" ).show( "medium" );
     // Hides about content
     $( ".work-content" ).hide( "medium" );          
-  });    
+  });
+  $( "#sketch-btn" ).click(function() {
+    // Shows about content
+    $( "#sketch-cont" ).show( "medium" );
+    // Hides about content
+    $( ".work-content" ).hide( "medium" );          
+  });          
 
 
 
