@@ -11,7 +11,8 @@ function hideWork() {
     $( "#bitcoin-cont" ).hide( "fast" );
     $( "#event-cont" ).hide( "fast" );
     $( "#sassy-cont" ).hide( "fast" ); 
-    $( "#sketch-cont" ).hide( "fast" );    
+    $( "#sketch-cont" ).hide( "fast" ); 
+    $( "#emails-cont" ).hide( "fast" );        
 }
 
 
@@ -106,7 +107,13 @@ function hideWork() {
     $( "#sketch-cont" ).show( "medium" );
     // Hides about content
     $( ".work-content" ).hide( "medium" );          
-  });          
+  });
+  $( "#emails-btn" ).click(function() {
+    // Shows about content
+    $( "#emails-cont" ).show( "medium" );
+    // Hides about content
+    $( ".work-content" ).hide( "medium" );          
+  });                  
 
 
 
