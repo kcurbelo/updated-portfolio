@@ -12,7 +12,8 @@ function hideWork() {
     $( "#event-cont" ).hide( "fast" );
     $( "#sassy-cont" ).hide( "fast" ); 
     $( "#sketch-cont" ).hide( "fast" ); 
-    $( "#emails-cont" ).hide( "fast" );        
+    $( "#emails-cont" ).hide( "fast" );
+    $( "#invateck-cont" ).hide( "fast" );              
 }
 
 
@@ -113,7 +114,13 @@ function hideWork() {
     $( "#emails-cont" ).show( "medium" );
     // Hides about content
     $( ".work-content" ).hide( "medium" );          
-  });                  
+  });
+  $( "#invateck-btn" ).click(function() {
+    // Shows about content
+    $( "#invateck-cont" ).show( "medium" );
+    // Hides about content
+    $( ".work-content" ).hide( "medium" );          
+  });                       
 
 
 
