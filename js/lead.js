@@ -122,5 +122,8 @@ function hideWork() {
     $( ".work-content" ).hide( "medium" );          
   });                       
 
+$(document).ready(function(){
+  $('[data-toggle="tooltip"]').tooltip();   
+});
 
 
